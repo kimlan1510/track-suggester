@@ -2,7 +2,6 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/bootflat.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
@@ -19,7 +18,7 @@
       </div>
       <div class="row">
         <div class="col-md-4">
-          <form>
+          <form id="track-picker">
             <!-- 1st form -->
             <div class="form-group">
               <label for="style">Are you interested in front-end or back-end development?</label>
@@ -31,10 +30,10 @@
             <!-- 2nd form -->
             <div class="form-group">
              <label for="environtment">What type of environtments do you want to work with?</label>
-             <select class="form-control" id="environtment">
-               <option class="environtment-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</option>
-               <option class="environtment-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</option>
-               <option class="environtment-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</option>
+             <select class="form-control" id="environment">
+               <option class="environment-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</option>
+               <option class="environment-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</option>
+               <option class="environment-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</option>
              </select>
             </div>
             <!-- 3rd form -->
@@ -70,7 +69,7 @@
         </div>
 
         <div class="col-md-8">
-          <h1>123</h1>
+          <h3 class="your-track"></h3>
         </div>
 
       </div>
