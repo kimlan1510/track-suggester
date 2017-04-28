@@ -9,68 +9,72 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="header-band">
-        <h3>Epicodus</h3>
+      <div class="header_band">
+        <h3 class="header"><img src="img/logo.png" alt="epicodus" /></h3>
       </div>
-      <div class="content">
+      <div class="welcome">
         <h1>Welcome to Epicodus</h1>
         <p>Hi, so you make it to Epicodus but still don't know which track you should sign up for? Answer the questions below and find out.</p>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <form id="track-picker">
-            <!-- 1st form -->
-            <div class="form-group">
-              <label for="style">Are you interested in front-end or back-end development?</label>
-              <select class="form-control" id="style">
-                <option class="front-end" value="front-end">Front-end development.</option>
-                <option class="back-end" value="back-end">Back-end development</option>
-              </select>
-            </div>
-            <!-- 2nd form -->
-            <div class="form-group">
-             <label for="environtment">What type of environtments do you want to work with?</label>
-             <select class="form-control" id="environment">
-               <option class="environment-1">Lorem ipsuam dolor sit amet, consectetur adipiscin3g elit.</option>
-               <option class="environment-2">Lorem ipsum dolor sift amet, consecatetur adipidscing elit.</option>
-               <option class="environment-3">Lorem ipsum dolor vsit amet, conxsectetur adipiscing elit.</option>
-             </select>
-            </div>
-            <!-- 3rd form -->
-            <div class="form-group">
-             <label for="company">What type of companies do you want to work for?</label>
-             <select class="form-control" id="company">
-               <option class="company-1">Lorem ipcsum dolor sit amet, consectetur adipiscing elit.</option>
-               <option class="company-2">Lorem ipsum dolor sit amet, consevctetur adipiscing elit.</option>
-               <option class="company-3">Lorem ipsum doxlor sit amet, consectetur adipiscing elit.</option>
-             </select>
-            </div>
-            <!-- 4th form -->
-            <div class="form-group">
-             <label for="app-type">What kind of applications do you want to create?</label>
-             <select class="form-control" id="app-type">
-               <option class="app-type-1">Lorem ipsum dolor sivt amet, consectetur adipiscing elit.</option>
-               <option class="app-type-2">Lorem ipsum dolor sit amet, consectetur asdipiscing elit.</option>
-               <option class="app-type-3">Lorem ipsum dolor sit amet, consectewtur adipiscing elit.</option>
-             </select>
-            </div>
-            <!-- 5th form -->
-            <div class="form-group">
-             <label for="personality">What personality types are you?</label>
-             <select class="form-control" id="personality">
-               <option class="personality-1">Lorem iesum dolor sit amet, consectetur adipiscing elit.</option>
-               <option class="personality-2">Lorem ipsrum dolor sit amet, consectetur adipiscing elit.</option>
-               <option class="personality-3">Lorqem ipsum dolor sit amet, consectetur adipiscing elit.</option>
-             </select>
-            </div>
-            <button type="submit" class="btn btn-default">Got it</button>
-          </form>
 
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <form id="track-picker">
+              <!-- 1st form -->
+              <div class="form-group">
+                <label for="style">Are you interested in front-end or back-end development?</label>
+                <select class="form-control" id="style">
+                  <option class="front-end" value="front-end">Front-end development.</option>
+                  <option class="back-end" value="back-end">Back-end development</option>
+                </select>
+              </div>
+              <!-- 2nd form -->
+              <div class="form-group">
+               <label for="environtment">What type of environtments do you want to work with?</label>
+               <select class="form-control" id="environment">
+                 <option class="environment-1">Lorem ipsuam dolor sit amet, consectetur adipiscin3g elit.</option>
+                 <option class="environment-2">Lorem ipsum dolor sift amet, consecatetur adipidscing elit.</option>
+                 <option class="environment-3">Lorem ipsum dolor vsit amet, conxsectetur adipiscing elit.</option>
+               </select>
+              </div>
+              <!-- 3rd form -->
+              <div class="form-group">
+               <label for="company">What type of companies do you want to work for?</label>
+               <select class="form-control" id="company">
+                 <option class="company-1">Lorem ipcsum dolor sit amet, consectetur adipiscing elit.</option>
+                 <option class="company-2">Lorem ipsum dolor sit amet, consevctetur adipiscing elit.</option>
+                 <option class="company-3">Lorem ipsum doxlor sit amet, consectetur adipiscing elit.</option>
+               </select>
+              </div>
+              <!-- 4th form -->
+              <div class="form-group">
+               <label for="app-type">What kind of applications do you want to create?</label>
+               <select class="form-control" id="app-type">
+                 <option class="app-type-1">Lorem ipsum dolor sivt amet, consectetur adipiscing elit.</option>
+                 <option class="app-type-2">Lorem ipsum dolor sit amet, consectetur asdipiscing elit.</option>
+                 <option class="app-type-3">Lorem ipsum dolor sit amet, consectewtur adipiscing elit.</option>
+               </select>
+              </div>
+              <!-- 5th form -->
+              <div class="form-group">
+               <label for="personality">What personality types are you?</label>
+               <select class="form-control" id="personality">
+                 <option class="personality-1">Lorem iesum dolor sit amet, consectetur adipiscing elit.</option>
+                 <option class="personality-2">Lorem ipsrum dolor sit amet, consectetur adipiscing elit.</option>
+                 <option class="personality-3">Lorqem ipsum dolor sit amet, consectetur adipiscing elit.</option>
+               </select>
+              </div>
+              <button type="submit" class="btn btn-default">Got it</button>
+            </form>
+          </div>
         </div>
 
         <div class="col-md-8">
-          <h3 class="your-track"></h3>
-          <p class="des"></p>
+          <div class="panel panel-default">
+            <h3 class="your-track"></h3>
+            <p class="des"></p>
+          </div>
         </div>
 
       </div>

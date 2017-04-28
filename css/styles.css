@@ -1,3 +1,59 @@
+html, body{
+  overflow-x: hidden;
+  margin-left: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+}
+
+.header_band{
+  border: 0px;
+  margin: 0 auto;
+  padding: 0px;
+  display: block;
+  width:100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+.welcome {
+  background-color: #19b5fe;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+
+}
+
+h1{
+  font-size: 66px;
+  color: white;
+  font-family: nimbus-sans;
+}
+
+.your-track{
+  padding: 10px;
+}
+
+p{
+  font-family: nimbus-sans;
+  font-size: 20px;
+}
+
+.des{
+  padding: 10px;
+}
+.panel-default{
+  margin-top: 7px;
+}
+
+#track-picker{
+  font-size: 17px;
+  font-family: nimbus-sans;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 button{
   float:right;
 }
