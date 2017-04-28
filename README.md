@@ -23,7 +23,7 @@ _kimlan1510@gmail.com_
 
 ## Technologies Used
 
-_.HTML, CSS, Bootstrap, Jquery-3-2-1, JavaScripts_
+_.HTML, CSS, Bootstrap, Jquery-3-2-1, JavaScript_
 
 ### License
 
