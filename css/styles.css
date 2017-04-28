@@ -18,6 +18,7 @@ html, body{
 .welcome {
   background-color: #19b5fe;
   margin: 0px;
+  padding-left: 15px;
   padding-top: 50px;
   padding-bottom: 50px;
   width: 100%;
@@ -37,15 +38,28 @@ h1{
 p{
   font-family: nimbus-sans;
   font-size: 20px;
+  color: white;
 }
 
 .des{
   padding: 10px;
+  color: black;
 }
 .panel-default{
   margin-top: 7px;
+  background-color: #87d37c;
 }
 
+.form-control{
+  background: white;
+}
+
+label{
+  background: #87d37c;
+}
+#panel{
+  background-color: #ffb61e;
+}
 #track-picker{
   font-size: 17px;
   font-family: nimbus-sans;
